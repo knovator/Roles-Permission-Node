@@ -1,0 +1,12 @@
+[
+    {
+        "name": "super admin",
+        "code": "SUPER_ADMIN",
+        "weight": 1
+    },
+    {
+        "name": "admin",
+        "code": "ADMIN",
+        "weight": 2
+    }
+]

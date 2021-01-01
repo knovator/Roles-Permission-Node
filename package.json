@@ -1,0 +1,17 @@
+{
+  "name": "roles-and-permission-node",
+  "version": "1.0.0",
+  "description": "role and permission in express js ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rahul",
+  "license": "ISC",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "lodash": "^3.10.1",
+    "mongoose": "^5.11.8"
+  }
+}
