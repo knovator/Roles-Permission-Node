@@ -8,7 +8,6 @@ const RoleSchema = mongoose.Schema(
     code: {
       type: String,
       required: true,
-      unique: true,
     },
     weight: {
       type: Number,
