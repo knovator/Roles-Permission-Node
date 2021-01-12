@@ -95,7 +95,7 @@ routes.route('/').post((req, res) => {
     res.send('ok in api')
 }).descriptor('setting.create');
 
-routes.route('/update/:id').get((req, res) => {
+routes.route('/:id').get((req, res) => {
     res.send('ok in api')
 }).descriptor('setting.show');
 
