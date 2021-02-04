@@ -145,6 +145,12 @@ const { getRole } = require('roles-and-permission-node');
 
 console.log(await getRole())
 
+you can also find the roles by codes
+
+const codes=['SUPER_ADMIN','ADMIN'];
+
+console.log(await getRole(codes))
+
 ```
 
 ## create new Role 
