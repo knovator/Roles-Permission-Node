@@ -13,5 +13,7 @@ const options = {
     useFindAndModify: false
 };
 mongoose.connect(dConnection, options).then(async () => {
+}).catch((err) => {
+    console.log(err.message);
 })
 module.exports = mongoose

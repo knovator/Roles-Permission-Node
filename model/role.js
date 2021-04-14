@@ -8,7 +8,6 @@ const RoleSchema = mongoose.Schema(
     code: {
       type: String,
       required: true,
-      unique: true,
     },
     weight: {
       type: Number,
@@ -20,6 +19,6 @@ const RoleSchema = mongoose.Schema(
   }
 );
 
-const Role = mongoose.model('Role', RoleSchema);
+const Role = mongoose.model('role', RoleSchema,'role');
 
 module.exports = Role;
